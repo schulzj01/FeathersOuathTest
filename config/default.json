@@ -30,16 +30,16 @@
       "expiresIn": "1d"
     },
     "oauth": {
-			"redirect":  "https://lcat-dev2.mdl.nws.noaa.gov/oauth/connect/noaaonline/callback",
+      "redirect":  "https://lcat-dev2.mdl.nws.noaa.gov/oauth/connect/noaaonline/callback",
       "noaaonline": {
         "key": "https_lcat-dev2_mdl_nws_noaa_gov_lcat",
         "secret": "<Client secret>",
-				"successRedirect": "https://lcat-dev2.mdl.nws.noaa.gov/oauth/connect/noaaonline/callback",
+	"successRedirect": "https://lcat-dev2.mdl.nws.noaa.gov/oauth/connect/noaaonline/callback",
         "request_url" : "https://sso-dev.noaa.gov/openam/oauth2/noaa-online/authorize",
         "authorize_url" : "https://sso-dev.noaa.gov/openam/oauth2/noaa-online/authorize",
         "access_url" : "https://sso-dev.noaa.gov/openam/oauth2/noaa-online/authorize",
         "redirect_uri": "https://lcat-dev2.mdl.nws.noaa.gov/oauth/noaaonline/callback",
-				"oauth" : "2",
+	"oauth" : "2",
         "client_id" : "https_lcat-dev2_mdl_nws_noaa_gov_lcat",
         "response_type" : "code",
         "scope" : "profile"
